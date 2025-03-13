@@ -15,7 +15,7 @@ metadata:
     janus-idp.io/tekton: ssm-secured   
 spec:
   type: gitops
-  owner: user:dperaza4dustbit 
+  owner: user:default/dperaza4dustbit
   lifecycle: experimental
   dependsOn:
     - component:ssm-secured
